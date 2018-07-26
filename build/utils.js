@@ -69,14 +69,8 @@ exports.cssLoaders = function (options) {
         ]
       }
     }),
-    // stylus: generateLoaders('stylus'),
-    // styl: generateLoaders('stylus')
-    stylus: generateLoaders('stylus', {
-      import: [config.mand.theme.path]
-    }),
-    styl: generateLoaders('stylus', {
-      import: [config.mand.theme.path]
-    })
+    stylus: generateLoaders('stylus'),
+    styl: generateLoaders('stylus')
   }
 }
  
