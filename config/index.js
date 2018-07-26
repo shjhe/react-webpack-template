@@ -16,10 +16,8 @@ function resolve (dir) {
  * 4、host
  */
 module.exports = {
-  mand: {
-    theme: {
-      path: resolve('src/mand-ui/theme.styl')
-    },
+  UI: {
+    type: 'PC', // H5 or PC 用来区分是否启用pxtorem 及 是否使用responsive.js
     pxtorem: {
       // If you modify rootValue, you also need to modify rem in static/responsive.js
       rootValue: 100, // 1rem=100px

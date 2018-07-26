@@ -35,8 +35,6 @@ $ npm start
 │   ├── start.js
 │   └── test.js
 ├── public
-│   ├── lib
-│   │   └── responsive.js                  # rem处理 如不需要可将index.html中的引用去掉
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json

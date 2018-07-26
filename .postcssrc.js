@@ -14,6 +14,6 @@ module.exports = {
       ],
       flexbox: 'no-2009',
     },
-    "postcss-pxtorem": config.UI.pxtorem
+    "postcss-pxtorem": config.UI.type === 'H5' ? config.UI.pxtorem : {}
   }
 }
