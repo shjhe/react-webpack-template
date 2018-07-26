@@ -15,28 +15,28 @@ $ npm start
 ## 目录结构
 ```
 # 以下用CRA代表create-react-app
-├── react-app
+├── react-app                               
 │   ├── build
 │   │   ├── jest
 │   │   ├── cssTransform.js
 │   │   └──fileTransform.js
 │   ├── env.js
-│   ├── paths.js # CRA路径配置
+│   ├── paths.js                            # CRA路径配置
 │   ├── polyfills.js
 │   ├── utils.js # vue-cli的styleLoaders
-│   ├── webpack.config.base.js #webpack公共配置
+│   ├── webpack.config.base.js              # webpack公共配置
 │   ├── webpack.config.dev.js
-│   ├── webpack.config.dll.js # dll优化 暂时未处理
+│   ├── webpack.config.dll.js               # dll优化 暂时未处理
 │   ├── webpacj.config.prod.js
 │   └── webpackDevServer.config.js
 ├── config
 │   ├── build.js
-│   ├── index.js # vue-cli配置文件 代理、端口等...
+│   ├── index.js                            # vue-cli配置文件 代理、端口等...
 │   ├── start.js
 │   └── test.js
 ├── public
 │    ├── lib
-│    │   └── responsive.js # rem处理 如不需要可将index.html中的引用去掉
+│    │   └── responsive.js                  # rem处理 如不需要可将index.html中的引用去掉
 │    ├── favicon.ico
 │    ├── index.html
 │    └── manifest.json
