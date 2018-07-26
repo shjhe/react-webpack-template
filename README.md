@@ -51,7 +51,9 @@ $ npm start
 │   ├── index.js
 │   ├── logo.svg
 │   └── registerServiceWorker.js
-├── .gitignore
+├── .babelrc                                # babel配置
+├── .gitignore                              # git忽略文件配置
+├── .postcssrc.js                           # postcss配置
 ├── pacakge.json
 ├── README.md
 └── yarn.lock
@@ -62,3 +64,6 @@ $ npm start
 * webpack公共部分统一出来，省去添加[scss/less...]-loader、添加alias路径别名等需要修改两个文件的麻烦
 * 引入vue-cli中的styleLoaders，使其支持scss/less/stylus
 * 引入vue-cli中的config/index，配置端口、代理等，暂时未全部使用其配置，后续会不断完善
+
+## LICENSE
+MIT
