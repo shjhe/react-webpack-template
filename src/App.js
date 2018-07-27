@@ -1,22 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Tag } from 'antd-mobile';
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Tag selected>selected</Tag>
-      </div>
-    );
-  }
-}
+import React from 'react'
+import Footer from './components/Footer'
+import AddTodo from './components/AddTodo'
+import VisibleTodoList from './views/VisibleTodoList'
 
-export default App;
+const App = () => (
+  <div>
+    <AddTodo />
+    <VisibleTodoList />
+    <Footer />
+  </div>
+)
+
+export default App
